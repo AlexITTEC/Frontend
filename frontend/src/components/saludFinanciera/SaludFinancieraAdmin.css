@@ -1,0 +1,116 @@
+.admin-salud-panel {
+  padding: 20px 40px;
+  font-family: 'Segoe UI', sans-serif;
+  color: #2c3e50;
+}
+
+.editor-contenedor-completo {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.editor-central {
+  flex: 1;
+  max-width: 72%;
+}
+.editor-contenedor {
+  min-height: 600px;
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  position: relative;
+  z-index: 1;
+}
+
+
+.indice-lateral {
+  width: 25%;
+  max-width: 280px;
+  background-color: #f4f7fa;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.05);
+  font-size: 0.95rem;
+  max-height: 650px;
+  overflow-y: auto;
+}
+
+.indice-lateral h4 {
+  margin-top: 0;
+  color: #0e5cad;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.indice-lateral ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.indice-lateral li {
+  margin-bottom: 8px;
+}
+
+.indice-lateral button {
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  color: #2c3e50;
+  cursor: pointer;
+  padding: 6px 8px;
+  border-radius: 6px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.indice-lateral button:hover {
+  background-color: #e1ecf7;
+  color: #0e5cad;
+}
+
+.acciones-panel {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.btn-guardar,
+.btn-volver-inicio {
+  padding: 10px 18px;
+  border-radius: 8px;
+  background-color: #0e5cad;
+  color: white;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+  text-decoration: none;
+}
+
+.btn-guardar:hover,
+.btn-volver-inicio:hover {
+  background-color: #094d91;
+}
+
+.mensaje-exito {
+  margin-left: 10px;
+  color: green;
+  font-weight: bold;
+}
+.bloque-resaltado {
+  animation: resaltarBloque 1s ease-in-out;
+  background-color: #e0f0ff !important; /* Azul claro */
+  border-left: 5px solid #0e5cad;
+  border-radius: 6px;
+  padding-left: 10px;
+}
+
+@keyframes resaltarBloque {
+  0%   { background-color: #e0f0ff; }
+  100% { background-color: transparent; }
+}

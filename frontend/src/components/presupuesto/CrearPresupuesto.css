@@ -1,0 +1,128 @@
+.contenedor-crear-presupuesto {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.5s ease-in-out;
+
+  /* ✅ Scroll funcional */
+  min-height: 100vh;
+  overflow-y: auto;
+}
+
+.formulario-presupuesto label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 10px 0 5px;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #2d3748;
+}
+
+.formulario-presupuesto input,
+.formulario-presupuesto textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  font-size: 1em;
+  transition: border-color 0.3s ease;
+}
+
+.formulario-presupuesto input:focus,
+.formulario-presupuesto textarea:focus {
+  border-color: #2563eb;
+  outline: none;
+}
+
+.formulario-presupuesto button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.formulario-presupuesto button:hover {
+  background-color: #0056b3;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.btn-volver {
+  background-color: #2278b5;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-volver:hover {
+  background-color: #1c5e91;
+}
+
+.toast-presupuesto {
+  background-color: #3182ce;
+  color: white;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.toast-presupuesto.success {
+  background-color: #38a169;
+}
+.toast-presupuesto.error {
+  background-color: #e53e3e;
+}
+.toast-presupuesto.info {
+  background-color: #3182ce;
+}
+
+.icono-info {
+  margin-left: 6px;
+  color: #2563eb;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+  vertical-align: middle;
+}
+
+.icono-info:hover {
+  color: #1d4ed8;
+}
+
+/* Estilo opcional para tooltips si deseas usar variables CSS */
+.react-tooltip {
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  color: #4a4a4a !important;
+  font-size: 0.9rem;
+  padding: 0.6rem 0.9rem !important;
+  border-radius: 10px !important;
+  border: 1px solid rgba(200, 200, 200, 0.4);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+

@@ -1,0 +1,84 @@
+.verificacion-container {
+  max-width: 450px;
+  margin: 50px auto;
+  padding: 35px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+  animation: fadeIn 0.4s ease;
+  text-align: center;
+}
+
+.verificacion-container h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #0e5cad;
+}
+
+.verificacion-container p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.input-group {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+
+.input-group input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  outline: none;
+  font-size: 1rem;
+  padding-left: 10px;
+}
+
+.input-group .icon {
+  color: #555;
+  font-size: 1.1rem;
+}
+
+.verificar-btn {
+  width: 100%;
+  background-color: #0e5cad;
+  color: #fff;
+  font-size: 1rem;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.verificar-btn:hover {
+  background-color: #094c95;
+}
+
+.mensaje {
+  margin-top: 15px;
+  font-weight: 500;
+  color: #d63031;
+}
+
+.success-message {
+  color: green;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

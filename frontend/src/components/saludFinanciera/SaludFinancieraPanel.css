@@ -1,0 +1,219 @@
+.salud-panel-contenedor {
+  max-width: 850px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 15px;
+  font-family: 'Segoe UI', sans-serif;
+  color: #2c3e50;
+  line-height: 1.8;
+  font-size: 1.05rem;
+}
+
+.salud-panel-titulo {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #0e5cad;
+  font-weight: 700;
+}
+
+.salud-panel-contenido > * {
+  margin-bottom: 1.5rem;
+}
+
+/* Texto */
+.render-texto {
+  margin-bottom: 1.2rem;
+}
+
+/* Encabezados */
+.render-header {
+  color: #0e5cad;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+/* Imágenes */
+.img-block img {
+  max-width: 100%;
+  display: block;
+  margin: 1.5rem auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Videos */
+.video-embed {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  margin: 2rem 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.video-embed iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  border: none;
+}
+
+/* Checklist */
+.checklist-block {
+  padding: 0;
+  margin: 1.5rem 0;
+  list-style: none;
+}
+
+.checklist-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  background-color: #f5faff;
+  padding: 0.75rem 1rem;
+  border-left: 4px solid #0e5cad;
+  border-radius: 6px;
+}
+
+.checklist-item input[type="checkbox"] {
+  transform: scale(1.3);
+  accent-color: #0e5cad;
+  cursor: default;
+}
+
+/* Cita */
+.custom-quote {
+  font-style: italic;
+  color: #444;
+  border-left: 4px solid #0e5cad;
+  padding-left: 1rem;
+  margin: 2rem 0;
+}
+
+.custom-quote cite {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Advertencia */
+.custom-warning {
+  background-color: #fff3cd;
+  padding: 1rem;
+  border-left: 6px solid #f0ad4e;
+  border-radius: 6px;
+  font-weight: 500;
+  color: #856404;
+}
+
+/* Tabla */
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1.5rem;
+}
+
+.custom-table td,
+.custom-table th {
+  border: 1px solid #ccc;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+/* Enlace */
+.custom-link {
+  display: block;
+  background: #f9f9f9;
+  border-left: 4px solid #0e5cad;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  text-decoration: none;
+  color: inherit;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+
+.custom-link:hover {
+  background: #eef6ff;
+}
+
+/* Blog wrapper */
+.salud-financiera-blog {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  font-family: 'Segoe UI', sans-serif;
+  background: none;
+  box-shadow: none;
+  border: none;
+}
+
+.contenido-blog > * {
+  margin-bottom: 1.5rem;
+}
+
+/* Presentación */
+.presentacion-blog {
+  text-align: center;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.titulo-blog {
+  font-size: 2.4rem;
+  margin-bottom: 0.5rem;
+  color: #0e5cad;
+}
+
+.subtitulo-blog {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.linea-decorativa {
+  height: 3px;
+  background: linear-gradient(to right, #0e5cad, #38a169);
+  width: 100px;
+  margin: 1rem auto;
+  border-radius: 2px;
+}
+.footer-fintrack {
+  text-align: center;
+  margin-top: 3rem;
+  padding: 1.5rem;
+  font-size: 0.95rem;
+  color: #555;
+  background-color: #f7f9fb;
+  border-top: 1px solid #e0e0e0;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 10px 10px 0 0;
+}
+
+.btn-volver-inicio {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  background-color: #0e5cad;
+  color: white;
+  padding: 0.75rem 1rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: background 0.3s ease;
+  z-index: 1000;
+}
+
+.btn-volver-inicio:hover {
+  background-color: #09478b;
+}

@@ -1,0 +1,50 @@
+.home-contenedor {
+    padding: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+    animation: fadeIn 0.5s ease-in-out;
+    text-align: center;
+  }
+  
+  .bienvenida h1 {
+    margin-bottom: 10px;
+  }
+  
+  .bienvenida p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .boton-navegacion {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 25px;
+    font-size: 1em;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .boton-navegacion:hover {
+    background-color: #0056b3;
+  }
+  .mensaje-exito {
+    margin-top: 20px;
+    color: green;
+    font-weight: bold;
+    font-size: 1.1em;
+    animation: aparecer 0.3s ease-in-out;
+  }
+  
+  @keyframes aparecer {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  

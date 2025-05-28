@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #f5f6fa;
+  }
+  
+  .confirmation-panel {
+    text-align: center;
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+  }
+  
+  .check-icon {
+    color: #00796b;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+  
+  h2 {
+    margin-bottom: 0.5rem;
+    color: #004d40;
+  }
+  
+  p {
+    margin-bottom: 2rem;
+    color: #555;
+  }
+  
+  .login-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00796b;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+  }
+  
+  .login-button:hover {
+    background-color: #004d40;
+  }
+  

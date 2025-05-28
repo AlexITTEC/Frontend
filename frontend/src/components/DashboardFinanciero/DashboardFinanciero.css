@@ -1,0 +1,157 @@
+.dashboard-financiero {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.titulo-dashboard {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #0e5cad;
+}
+
+.tarjetas-resumen {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.tarjeta {
+  flex: 1;
+  margin: 0 10px;
+  background: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.tarjeta.ingreso { background-color: #e6fffa; color: #2c7a7b; }
+.tarjeta.retiro { background-color: #fff5f5; color: #c53030; }
+.tarjeta.ahorro { background-color: #ebf4ff; color: #2b6cb0; }
+
+.graficas-dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.grafica {
+  flex: 1 1 45%;
+  padding: 10px;
+  min-width: 300px;
+  min-height: 280px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.mensaje-vacio {
+  text-align: center;
+  font-style: italic;
+  color: #666;
+  padding: 20px;
+}
+
+.presupuestos-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.card-presupuesto {
+  background: #f1f5f9;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  font-size: 0.95rem;
+}
+
+.barra-externa {
+  width: 100%;
+  height: 14px;
+  background-color: #e2e8f0;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+.barra-interna {
+  height: 100%;
+  background-color: #4299e1;
+  border-radius: 8px;
+  transition: width 0.6s ease, background-color 0.3s ease;
+}
+
+.modo-selector {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.modo-selector button {
+  background-color: #edf2f7;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: bold;
+}
+
+.modo-selector button.activo {
+  background-color: #3182ce;
+  color: white;
+}
+.grafica-metas {
+  flex: 1 1 100%;
+}
+
+.metas-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.card-meta {
+  background: #f0eaff;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  font-size: 0.95rem;
+}
+
+.card-meta .mensaje-meta {
+  font-style: italic;
+  color: #6b46c1;
+  margin-bottom: 6px;
+}
+.grafica-metas-completadas {
+  flex: 1 1 100%;
+  background-color: #f0fff4;
+  border: 2px dashed #38a169;
+}
+
+.grafica-metas-completadas h4 {
+  color: #2f855a;
+}
+
+.grafica-metas-completadas .card-meta {
+  background: #e6fffa;
+  border-left: 6px solid #38a169;
+}
+
+.grafica-metas-completadas .barra-interna {
+  background-color: #38a169 !important;
+}
+
+.grafica-metas-completadas .mensaje-meta {
+  color: #2f855a;
+  font-weight: 500;
+}
